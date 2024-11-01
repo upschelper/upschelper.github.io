@@ -3,28 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - UPSC Study Hub</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - UPSC Study Material</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">UPSC Study Hub</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#materials">Study Materials</a></li>
-                <li><a href="#support">Student Support</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="contact">
+    <div class="container">
         <h1>Contact Us</h1>
-        <p>If you have any questions or feedback, feel free to reach out to us using the form below:</p>
-
-        <form action="#" method="post">
+        <form action="submit_form.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -36,14 +67,7 @@
 
             <button type="submit">Send Message</button>
         </form>
+    </div>
 
-        <h2>Other Contact Methods</h2>
-        <p>Email: <a href="mailto:info@upscstudyhub.com">info@upscstudyhub.com</a></p>
-        <p>Phone: +1 (555) 123-4567</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 UPSC Study Hub. All rights reserved.</p>
-    </footer>
 </body>
 </html>
