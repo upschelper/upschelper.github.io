@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - UPSC Study Material</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <h2>Welcome to UPSC Helper!</h2>
+        <p>At UPSC Helper, we are dedicated to providing comprehensive study materials and support for students preparing for the UPSC examinations. Our goal is to equip you with the resources and guidance necessary to excel in your studies and achieve your career aspirations.</p>
+
+        <p>We understand the challenges faced by UPSC aspirants and aim to create a supportive community where you can find the information, tools, and encouragement you need to succeed. Our materials are curated by experienced educators and tailored to meet the needs of each student.</p>
+
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:pkjsaini42@gmail.com">pkjsaini42@gmail.com</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/pkj724">@pkj724</a></p>
+            <p><strong>Mobile:</strong> 724030115</p>
+            <p><strong>Website:</strong> <a href="https://upschelper.github.io" target="_blank">upschelper.github.io</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
