@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 80%;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .response-message {
+            margin-top: 10px;
+            text-align: center;
+            color: #d9534f; /* Bootstrap Danger Color */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sign In</h1>
+        <form id="signinForm">
+            <label for="username">Username:</label>
+            <input type="text" id="signinUsername" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="signinPassword" name="password" required>
+
+            <button type="submit">Sign In</button>
+        </form>
+        <div id="signinResponseMessage" class="response-message"></div>
+    </div>
+
+    <script>
+        // Simulated user data (for demonstration purposes)
+        const usersDatabase = {
+            "testuser": "testpassword", // Replace with the actual credentials you receive from Telegram
+        };
+
+        document.getElementById('signinForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('signinUsername').value;
+            const password = document.getElementById('signinPassword').value;
+
+            // Check if the user exists in the simulated database
+            if (usersDatabase[username] && usersDatabase[username] === password) {
+                document.getElementById('signinResponseMessage').innerText = 'Sign in successful!';
+                // Here you can redirect the user to another page or show user-specific content
+            } else {
+                document.getElementById('signinResponseMessage').innerText = 'Invalid username or password.';
+            }
+        });
+    </script>
+
+</body>
+</html>
