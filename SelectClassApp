@@ -1,0 +1,62 @@
+[{
+      "id": 1,
+      "name": "Class 1",
+      "logo_url" : "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Class 2",
+      "logo_url": "https://example.com/logos/class2.png"
+    },
+    {
+      "id": 3,
+      "name": "Class 3",
+      "logo_url": "https://example.com/logos/class3.png"
+    },
+    {
+      "id": 4,
+      "name": "Class 4",
+      "logo_url": "https://example.com/logos/class4.png"
+    },
+    {
+      "id": 5,
+      "name": "Class 5",
+      "logo_url": "https://example.com/logos/class5.png"
+    },
+    {
+      "id": 6,
+      "name": "Class 6",
+      "logo_url": "https://example.com/logos/class6.png"
+    },
+    {
+      "id": 7,
+      "name": "Class 7",
+      "logo_url": "https://example.com/logos/class7.png"
+    },
+    {
+      "id": 8,
+      "name": "Class 8",
+      "logo_url": "https://example.com/logos/class8.png"
+    },
+    {
+      "id": 9,
+      "name": "Class 9",
+      "logo_url": "https://example.com/logos/class9.png"
+    },
+    {
+      "id": 10,
+      "name": "Class 10",
+      "logo_url": "https://example.com/logos/class10.png"
+    },
+    {
+      "id": 11,
+      "name": "Class 11",
+      "logo_url": "https://example.com/logos/class11.png"
+    },
+    {
+      "id": 12,
+      "name": "Class 12",
+      "logo_url": "https://example.com/logos/class12.png"
+    }
+  ]
+}
