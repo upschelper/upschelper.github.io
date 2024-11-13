@@ -1,0 +1,37 @@
+[
+    {
+        "id": "01",
+        "name": "Mathematics(गणित)",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "02",
+        "name": "Phusics(भौतिक विज्ञान)",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "03",
+        "name": "English",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "04",
+        "name": "Chemistry (रसायन विज्ञान)",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "05",
+        "name": "Hindi(हिंदी)",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "06",
+        "name": "Political Science (राजनीति विज्ञान)",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "07",
+        "name": "History(इतिहास)",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    }
+]
