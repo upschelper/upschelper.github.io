@@ -1,35 +1,35 @@
 [{
-      "id": 6,
+      "id": "06",
       "name": "Class 6",
       "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-      "id": 7,
+      "id": "07",
       "name": "Class 7",
       "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-      "id": 8,
+      "id": "08",
       "name": "Class 8",
       "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-      "id": 9,
+      "id": "09",
       "name": "Class 9",
       "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Class 10",
       "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Class 11",
       "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Class 12",
       "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     }
