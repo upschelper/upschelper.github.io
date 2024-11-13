@@ -1,0 +1,37 @@
+[
+    {
+        "id": "01",
+        "name": "गणित",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "02",
+        "name": "विज्ञान",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "03",
+        "name": "English",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "04",
+        "name": "इतिहास",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "05",
+        "name": "Hindi",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "06",
+        "name": "संस्कृत",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "07",
+        "name": "भूगोल",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    }
+]
