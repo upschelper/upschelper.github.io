@@ -6,7 +6,7 @@
     },
     {
         "id": "02",
-        "name": "Science",
+        "name": "Political Science",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "id": "04",
-        "name": "Social Studies",
+        "name": "Physics",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "id": "07",
-        "name": "Physical Education",
+        "name": "Physics",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     }
 ]
