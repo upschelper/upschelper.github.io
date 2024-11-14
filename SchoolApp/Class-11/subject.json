@@ -1,37 +1,37 @@
 [
     {
-        "id": "01",
-        "name": "Mathematics",
+        "sub_id": "math",
+        "name": "Mathematics(गणित)",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "02",
-        "name": "Political Science",
+        "sub_id": "physics",
+        "name": "Phusics(भौतिक विज्ञान)",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "03",
+        "sub_id": "english",
         "name": "English",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "04",
-        "name": "Physics",
+        "sub_id": "chemistry",
+        "name": "Chemistry (रसायन विज्ञान)",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "05",
-        "name": "Hindi",
+        "sub_id": "hindi",
+        "name": "Hindi(हिंदी)",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "06",
-        "name": "Computer Science",
+        "sub_id": "political",
+        "name": "Political Science (राजनीति विज्ञान)",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "07",
-        "name": "Physics",
+        "sub_id": "history",
+        "name": "History(इतिहास)",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     }
 ]
