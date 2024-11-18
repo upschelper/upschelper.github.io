@@ -1,18 +1,22 @@
 [
     {
+        "id": "Videos",
+        "name": "Videos",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    },
+    {
+        "id": "Notes",
         "name": "Notes",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "name": "Book",
+        "id": "Books",
+        "name": "Books",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
+        "id": " Exercise",
         "name": "Exercise",
-        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
-    },
-    {
-        "name": "Videos",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     }
 ]
