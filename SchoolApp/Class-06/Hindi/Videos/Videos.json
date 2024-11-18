@@ -1,19 +1,19 @@
 
 [
   {
-    "chapter_id": 1,
+    "chapter_id": "1",
     "chapter_name": "Introduction to JSON",
     "video_link": "https://example.com/videos/intro-to-json",
     "thumbnail": "https://example.com/thumbnails/intro-to-json.jpg"
   },
   {
-    "chapter_id": 2,
+    "chapter_id": "2",
     "chapter_name": "Advanced JSON Techniques",
     "video_link": "https://example.com/videos/advanced-json",
     "thumbnail": "https://example.com/thumbnails/advanced-json.jpg"
   },
   {
-    "chapter_id": 3,
+    "chapter_id": "3",
     "chapter_name": "Working with APIs",
     "video_link": "https://example.com/videos/apis-and-json",
     "thumbnail": "https://example.com/thumbnails/apis-and-json.jpg"
