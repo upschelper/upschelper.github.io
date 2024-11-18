@@ -1,0 +1,26 @@
+[
+    {
+        "part_id": "01",
+        "part_name": "Getting Started",
+        "video_link": "https://example.com/videos/getting-started",
+        "thumbnail_link": "https://example.com/thumbnails/getting-started.jpg"
+    },
+    {
+        "part_id": "02",
+        "part_name": "Intermediate Concepts",
+        "video_link": "https://example.com/videos/intermediate-concepts",
+        "thumbnail_link": "https://example.com/thumbnails/intermediate-concepts.jpg"
+    },
+    {
+        "part_id": "03",
+        "part_name": "Advanced Topics",
+        "video_link": "https://example.com/videos/advanced-topics",
+        "thumbnail_link": "https://example.com/thumbnails/advanced-topics.jpg"
+    },
+    {
+        "part_id": "04",
+        "part_name": "Practical Applications",
+        "video_link": "https://example.com/videos/practical-applications",
+        "thumbnail_link": "https://example.com/thumbnails/practical-applications.jpg"
+    }
+]
