@@ -33,5 +33,11 @@
         "sub_id": "history",
         "name": "History(इतिहास)",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
+    }, 
+
+    {
+        "sub_id": "agriculture",
+        "name": "agriculture ( कृषि विज्ञान)",
+        "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     }
 ]
