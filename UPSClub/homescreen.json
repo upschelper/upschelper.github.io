@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "material_id": "Current_Affairs",
+      "material_name": "Current Affairs",
+      "thumbnail": "https://example.com/thumbnails/current-affairs"
+    },
+    {
+      "material_id": "NCERT_Books",
+      "material_name": "NCERT Books",
+      "thumbnail": "https://example.com/thumbnails/ncert-books"
+    },
+    {
+      "material_id": "NCERT_Notes",
+      "material_name": "NCERT Notes",
+      "thumbnail": "https://example.com/thumbnails/ncert-notes"
+    },
+    {
+      "material_id": "Syllabus",
+      "material_name": "Syllabus",
+      "thumbnail": "https://example.com/thumbnails/syllabus"
+    },
+    {
+      "material_id": "Introduction",
+      "material_name": "Introduction",
+      "thumbnail": "https://example.com/thumbnails/introduction"
+    }
+  ]
+}
