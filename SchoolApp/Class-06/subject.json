@@ -1,36 +1,36 @@
 [
     {
-        "id": "math",
+        "id": "Math",
         "name": "Mathematics",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "science",
+        "id": "Science",
         "name": "Science",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "english",
+        "id": "English",
         "name": "English",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "history",
+        "id": "History",
         "name": "History",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "hindi",
+        "id": "Hindi",
         "name": "Hindi",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "computer",
+        "id": "Computer",
         "name": "Computer Science",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     },
     {
-        "id": "geography",
+        "id": "Geography",
         "name": "Geography",
         "logo_url": "https://ia800802.us.archive.org/1/items/pdf-logo/PDF%20Logo.jpg"
     }
