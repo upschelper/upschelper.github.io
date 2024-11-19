@@ -1,5 +1,4 @@
-{
-  "materials": [
+[
     {
       "material_id": "Current_Affairs",
       "material_name": "Current Affairs",
@@ -26,4 +25,3 @@
       "thumbnail": "https://example.com/thumbnails/introduction"
     }
   ]
-}
