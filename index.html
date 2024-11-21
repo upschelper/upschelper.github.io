@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC Club App Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        .content {
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .download-btn {
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            display: none; /* Hidden by default */
+        }
+        .download-btn.active {
+            display: inline-block; /* Shown only after activation */
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to UPSC Club</h1>
+        <p>Your Free App for UPSC Preparation</p>
+    </header>
+    <div class="content">
+        <h2>Download the UPSC Club App</h2>
+        <p id="message">The download link will be available on 22 November at 10:00 PM.</p>
+        <a id="download-link" href="YOUR_APP_DOWNLOAD_LINK" class="download-btn">Download Now</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 UPSC Club | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Activation date and time
+        const activationDate = new Date("November 22, 2024 22:00:00").getTime();
+
+        // Check the current time every second
+        const interval = setInterval(() => {
+            const now = new Date().getTime();
+            const remainingTime = activationDate - now;
+
+            if (remainingTime <= 0) {
+                // Activate the download link
+                document.getElementById("message").innerText = "The download link is now active!";
+                document.getElementById("download-link").classList.add("active");
+                clearInterval(interval); // Stop the timer
+            }
+        }, 1000);
+    </script>
+</body>
+  </html>
