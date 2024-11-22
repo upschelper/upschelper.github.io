@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Affairs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            margin: 15px 0;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .like-button {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: #007bff;
+        }
+        .like-button span {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="content"></div>
+    </div>
+    <script>
+        // Fetch data from the API
+        fetch("https://script.google.com/macros/s/AKfycbwV5GljdXj3IUqtpcLcqN5Jzb9vuTZMO7WcnV4PnWSSYOK8fMVbkTQQlktN7tD698T7/exec")
+            .then(response => response.json())
+            .then(data => {
+                const content = document.getElementById('content');
+                data.forEach((item, index) => {
+                    // Create a card for each photo
+                    const card = document.createElement('div');
+                    card.className = 'card';
+
+                    // Add the image
+                    const img = document.createElement('img');
+                    img.src = item.File_url;
+                    card.appendChild(img);
+
+                    // Add the photo name
+                    const title = document.createElement('h3');
+                    title.textContent = item['File name'];
+                    card.appendChild(title);
+
+                    // Add the like button and counter
+                    const likeButton = document.createElement('div');
+                    likeButton.className = 'like-button';
+                    likeButton.innerHTML = `❤️ <span id="like-count-${index}">0</span> Likes`;
+                    likeButton.onclick = function() {
+                        const likeCount = document.getElementById(`like-count-${index}`);
+                        likeCount.textContent = parseInt(likeCount.textContent) + 1;
+                    };
+                    card.appendChild(likeButton);
+
+                    // Append card to the content
+                    content.appendChild(card);
+                });
+            })
+            .catch(error => {
+                console.error("Error fetching data:", error);
+            });
+    </script>
+</body>
+</html>
