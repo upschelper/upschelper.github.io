@@ -21,6 +21,11 @@
             margin: 20px auto;
             max-width: 600px;
         }
+        .countdown {
+            font-size: 24px;
+            color: #dc3545;
+            margin-bottom: 20px;
+        }
         .download-btn {
             background-color: #28a745;
             color: white;
@@ -47,8 +52,9 @@
     </header>
     <div class="content">
         <h2>Download the UPSC Club App</h2>
-        <p id="message">The download link will be available on 22 November at 10:00 PM.</p>
-        <a id="download-link" href="https://github.com/upschelper/upschelper.github.io/raw/refs/heads/main/club.upsc.study_%231_1.0%20(1).apk" class="download-btn">Download Now</a>
+        <p id="countdown-message">The download link will be available in:</p>
+        <div id="countdown" class="countdown"></div>
+        <a id="download-link" href="https://github.com/upschelper/upschelper.github.io/raw/refs/heads/main/club.upsc.study_%231_1.0%20(1).apk" class="download-btn" download>Download Now</a>
     </div>
     <footer>
         <p>&copy; 2024 UPSC Club | All Rights Reserved</p>
@@ -58,18 +64,29 @@
         // Activation date and time
         const activationDate = new Date("November 22, 2024 22:00:00").getTime();
 
-        // Check the current time every second
+        // Update the countdown every second
         const interval = setInterval(() => {
             const now = new Date().getTime();
             const remainingTime = activationDate - now;
 
-            if (remainingTime <= 0) {
-                // Activate the download link
-                document.getElementById("message").innerText = "The download link is now active!";
+            // Calculate time components
+            const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+            // Display the countdown
+            if (remainingTime > 0) {
+                document.getElementById("countdown").innerText = 
+                    `${days}d ${hours}h ${minutes}m ${seconds}s`;
+            } else {
+                // Activate the download link when the countdown ends
+                document.getElementById("countdown-message").innerText = "The download link is now active!";
+                document.getElementById("countdown").innerText = "";
                 document.getElementById("download-link").classList.add("active");
                 clearInterval(interval); // Stop the timer
             }
         }, 1000);
     </script>
 </body>
-  </html>
+</html>
